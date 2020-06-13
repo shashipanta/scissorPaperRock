@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocks Scissors Paper</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!--This is the scoreboard section-->
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+    <div class="score-board">
+        <div id="user-label" class="badge">User</div>
+        <div id="computer-label" class="badge">Comp</div>
+        <span id="user-score">0</span>:<span id="comp-score">0</span>
+    </div>
+    <!--This is for the result description-->
+    <div class="result">
+        <p>Paper covers rock.You win!</p>
+    </div>
+    <!--This is for the choices -->
+    <div class="choices">
+        <div class="choice">
+            <img id="r" src="/img/rock.png" alt="hand">
+            <p>ROCK</p>
+        </div>
+        <div class="choice">
+            <img id="p" src="/img/paper.png" alt="paper">
+            <p>PAPER</p>
+        </div>
+        <div class="choice">
+            <img id="s" src="/img/scissors.png" alt="scissor">
+            <p>SCISSOR</p>
+        </div>
+    </div>
+
+    <p id="action-message">Make your move!!</p>
+    <script src="/app.js"></script>
+</body>
+
+</html>
